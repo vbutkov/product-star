@@ -2,4 +2,6 @@ rootProject.name = 'product-star'
 include 'spring-basics'
 include 'spring-context'
 include 'spring-rest'
+include 'spring-jdbc'
+include 'spring-jdbc-2'
 
