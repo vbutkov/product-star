@@ -4,4 +4,5 @@ include 'spring-context'
 include 'spring-rest'
 include 'spring-jdbc'
 include 'spring-jdbc-2'
+include 'spring-hibernate'
 
