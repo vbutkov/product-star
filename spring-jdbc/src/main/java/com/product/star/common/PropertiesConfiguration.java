@@ -1,4 +1,4 @@
-package com.product.star.account.manager.config;
+package com.product.star.common;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;

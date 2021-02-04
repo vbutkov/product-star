@@ -1,4 +1,4 @@
-package com.product.star.account.manager.config;
+package com.product.star.common;
 
 import org.apache.commons.dbcp.BasicDataSource;
 import org.springframework.beans.factory.annotation.Value;
