@@ -1,5 +1,5 @@
+import com.product.star.Main;
 import com.product.star.homework.Contact;
-import com.product.star.homework.ContactConfiguration;
 import com.product.star.homework.ContactRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +10,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 import java.util.List;
 
-@SpringBootTest(classes = ContactConfiguration.class)
+@SpringBootTest(classes = Main.class)
 @Sql("classpath:contact.sql")
 public class ContactRepositoryTests {
 

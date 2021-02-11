@@ -32,6 +32,9 @@ public class Main {
 
             var person = person(cities.get(0));
             Person persistedPerson = personRepository.save(person);
+
+            List<Person> adults = personRepository.findAllByAgeBetweenAndGender(20, 25, Gender.MALE);
+            System.out.println(adults);
         };
     }
 
