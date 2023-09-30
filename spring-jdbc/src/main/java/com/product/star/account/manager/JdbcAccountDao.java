@@ -1,5 +1,6 @@
 package com.product.star.account.manager;
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.support.GeneratedKeyHolder;
@@ -38,7 +39,9 @@ public class JdbcAccountDao implements AccountDao {
 
     private final JdbcTemplate jdbcTemplate;
 
-    public JdbcAccountDao(JdbcTemplate jdbcTemplate) {
+    public JdbcAccountDao(@Qualifier("jdbcTemplate") JdbcTemplate jdbcTemplate)
+
+    {
         this.jdbcTemplate = jdbcTemplate;
     }
 
@@ -56,8 +59,8 @@ public class JdbcAccountDao implements AccountDao {
         KeyHolder keyHolder = new GeneratedKeyHolder();
 
         jdbcTemplate.update(
-                con ->  {
-                    var ps = con.prepareStatement(CREATE_ACCOUNT_SQL, new String[] {"id"});
+                con -> {
+                    var ps = con.prepareStatement(CREATE_ACCOUNT_SQL, new String[]{"id"});
                     ps.setLong(1, amount);
                     return ps;
                 },
@@ -67,7 +70,6 @@ public class JdbcAccountDao implements AccountDao {
         var accountId = keyHolder.getKey().longValue();
         return new Account(accountId, amount);
     }
-
 
 
     @Override

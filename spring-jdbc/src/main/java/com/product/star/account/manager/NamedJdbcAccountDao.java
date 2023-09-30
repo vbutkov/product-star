@@ -1,5 +1,6 @@
 package com.product.star.account.manager;
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Primary;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
@@ -15,7 +16,7 @@ public class NamedJdbcAccountDao implements AccountDao {
 
     private final NamedParameterJdbcTemplate namedJdbcTemplate;
 
-    public NamedJdbcAccountDao(NamedParameterJdbcTemplate namedJdbcTemplate) {
+        public NamedJdbcAccountDao(@Qualifier("namedParameterJdbcTemplate") NamedParameterJdbcTemplate namedJdbcTemplate) {
         this.namedJdbcTemplate = namedJdbcTemplate;
     }
 
