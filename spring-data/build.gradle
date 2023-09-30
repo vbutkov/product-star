@@ -10,14 +10,14 @@ repositories {
 }
 
 dependencies {
-    compile "javax.xml.bind:jaxb-api:2.3.0"
-    compile "org.springframework.boot:spring-boot-starter-data-jpa:2.4.1"
-    compile "org.postgresql:postgresql:42.2.18"
+    implementation "javax.xml.bind:jaxb-api:2.3.0"
+    implementation "org.springframework.boot:spring-boot-starter-data-jpa:2.4.1"
+    implementation "org.postgresql:postgresql:42.2.18"
 
-    testCompile 'org.assertj:assertj-core:3.19.0'
+    testImplementation 'org.assertj:assertj-core:3.19.0'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.5.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.5.0'
-    testCompile 'org.springframework.boot:spring-boot-starter-test:2.4.1'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test:2.4.1'
 }
 
 test {

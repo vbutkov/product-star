@@ -1,0 +1,18 @@
+com/product/star/City.java
+ com.product.star.City
+com/product/star/Person.java
+ com.product.star.Person
+com/product/star/PersonService.java
+ com.product.star.PersonService
+com/product/star/PersonRepository.java
+ com.product.star.PersonRepository
+com/product/star/Gender.java
+ com.product.star.Gender
+com/product/star/Main.java
+ com.product.star.Main
+com/product/star/homework/Contact.java
+ com.product.star.homework.Contact
+com/product/star/homework/ContactRepository.java
+ com.product.star.homework.ContactRepository
+com/product/star/CityRepository.java
+ com.product.star.CityRepository
