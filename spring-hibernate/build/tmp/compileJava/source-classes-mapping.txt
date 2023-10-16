@@ -1,0 +1,23 @@
+com/product/star/PersonDao.java
+ com.product.star.PersonDao
+com/product/star/City.java
+ com.product.star.City
+com/product/star/Person.java
+ com.product.star.Person
+com/product/star/homework/ContactDao.java
+ com.product.star.homework.ContactDao
+com/product/star/Gender.java
+ com.product.star.Gender
+com/product/star/homework/ContactConfiguration.java
+ com.product.star.homework.ContactConfiguration
+com/product/star/Main.java
+ com.product.star.Main
+ com.product.star.Main$CountryStats
+com/product/star/HibernateConfiguration.java
+ com.product.star.HibernateConfiguration
+com/product/star/ApplicationConfiguration.java
+ com.product.star.ApplicationConfiguration
+com/product/star/homework/Contact.java
+ com.product.star.homework.Contact
+com/product/star/CityDao.java
+ com.product.star.CityDao

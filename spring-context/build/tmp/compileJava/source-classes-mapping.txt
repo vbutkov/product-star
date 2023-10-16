@@ -1,0 +1,24 @@
+manager/PropertiesConfiguration.java
+ manager.PropertiesConfiguration
+manager/InMemoryAccountDao.java
+ manager.InMemoryAccountDao
+manager/InMemoryBlocklistResolver.java
+ manager.InMemoryBlocklistResolver
+manager/AccountManagerMain.java
+ manager.AccountManagerMain
+manager/AccountDao.java
+ manager.AccountDao
+manager/PhoneToAccountResolver.java
+ manager.PhoneToAccountResolver
+manager/BlocklistResolver.java
+ manager.BlocklistResolver
+manager/AccountManagerConfig.java
+ manager.AccountManagerConfig
+manager/AccountService.java
+ manager.AccountService
+manager/InMemoryPhoneToAccountResolver.java
+ manager.InMemoryPhoneToAccountResolver
+manager/Account.java
+ manager.Account
+manager/InMemoryAccountService.java
+ manager.InMemoryAccountService

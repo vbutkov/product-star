@@ -14,12 +14,19 @@ import java.util.List;
 
 /**
  * Unit tests for {@link ContactDao}.
- *
+ * <p>
  * Тесты проверяют корректность реализации ContactDao.
  */
 @ExtendWith(SpringExtension.class)
 @ContextConfiguration(classes = ContactConfiguration.class)
-public record ContactDaoTests(@Autowired ContactDao contactDao) {
+public class ContactDaoTests {
+
+    private final ContactDao contactDao;
+
+    @Autowired
+    public ContactDaoTests(ContactDao contactDao) {
+        this.contactDao = contactDao;
+    }
 
     private static final Contact IVAN = new Contact(
             "Ivan", "Ivanov", "iivanov@gmail.com", "1234567"
@@ -81,7 +88,7 @@ public record ContactDaoTests(@Autowired ContactDao contactDao) {
         var contactId = contactDao.addContact(contact);
 
         var newPhone = "777-77-77";
-        contactDao.updatePhone(contactId, newPhone);
+        contactDao.updatePhoneNumber(contactId, newPhone);
 
         var updatedContact = contactDao.getContact(contactId);
         assertThat(updatedContact.getPhone()).isEqualTo(newPhone);

@@ -1,0 +1,32 @@
+product/star/account/manager/InMemoryPhoneToAccountResolver.java
+ product.star.account.manager.InMemoryPhoneToAccountResolver
+product/star/spring/basics/homework/service/ResultsProcessor.java
+ product.star.spring.basics.homework.service.ResultsProcessor
+product/star/spring/basics/homework/model/Distance.java
+ product.star.spring.basics.homework.model.Distance
+product/star/account/manager/PhoneToAccountResolver.java
+ product.star.account.manager.PhoneToAccountResolver
+product/star/spring/basics/homework/service/ResultParser.java
+ product.star.spring.basics.homework.service.ResultParser
+product/star/spring/basics/homework/service/ResultsReader.java
+ product.star.spring.basics.homework.service.ResultsReader
+product/star/account/manager/Account.java
+ product.star.account.manager.Account
+product/star/spring/basics/homework/model/Person.java
+ product.star.spring.basics.homework.model.Person
+product/star/spring/basics/homework/config/ResultsProcessorConfig.java
+ product.star.spring.basics.homework.config.ResultsProcessorConfig
+product/star/account/manager/InMemoryAccountService.java
+ product.star.account.manager.InMemoryAccountService
+product/star/spring/basics/homework/model/Result.java
+ product.star.spring.basics.homework.model.Result
+product/star/account/manager/AccountManagerConfig.java
+ product.star.account.manager.AccountManagerConfig
+product/star/account/manager/AccountManagerMain.java
+ product.star.account.manager.AccountManagerMain
+product/star/account/manager/AccountService.java
+ product.star.account.manager.AccountService
+product/star/spring/basics/homework/ResultsProcessorMain.java
+ product.star.spring.basics.homework.ResultsProcessorMain
+product/star/spring/basics/homework/model/Gender.java
+ product.star.spring.basics.homework.model.Gender

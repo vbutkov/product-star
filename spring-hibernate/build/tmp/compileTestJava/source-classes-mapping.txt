@@ -1,0 +1,2 @@
+com/product/star/homework/ContactDaoTests.java
+ com.product.star.homework.ContactDaoTests
